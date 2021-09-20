@@ -20,7 +20,7 @@ public class Item {
     //Metodos
     public boolean canItBeSold(){
         Date today = new Date();
-        return !expirationDate.after(today);
+        return expirationDate.after(today);
 
     }
 
