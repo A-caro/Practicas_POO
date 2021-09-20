@@ -1,4 +1,4 @@
-package src.poo;
+package src.poo.principal;
 
 import java.util.Date;
 
@@ -8,6 +8,8 @@ public class Item {
     public Double price;
     public Double tax;
     public Date expirationDate;
+
+
 
     //Metodos
     public Double getTotalToPay(){
@@ -21,7 +23,6 @@ public class Item {
     public boolean canItBeSold(){
         Date today = new Date();
         return expirationDate.after(today);
-
     }
 
 

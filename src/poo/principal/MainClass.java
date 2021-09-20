@@ -1,4 +1,6 @@
-package src.poo;
+package src.poo.principal;
+
+import src.poo.principal.Item;
 
 import java.util.Date;
 import java.util.Scanner;

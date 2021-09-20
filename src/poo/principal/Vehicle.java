@@ -1,4 +1,4 @@
-package src.poo;
+package src.poo.principal;
 
 public class Vehicle {
    //Atributos
@@ -8,6 +8,7 @@ public class Vehicle {
 
     //Metodo
     public String moveOn() {
+
         return "Estoy avanzando";
     }
     //Metodo
