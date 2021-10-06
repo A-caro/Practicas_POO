@@ -4,11 +4,10 @@ public class Auto extends Transporte {
     private String patent;
     private String brand;
 
-    public Auto(){
-        this.seats = 5;
-    }
+    public Auto(){}
 
-    public Auto(String patent, String brand) {
+    public Auto(Integer seats,String patent, String brand) {
+        super(seats);
         this.patent = patent;
         this.brand = brand;
     }

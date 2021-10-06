@@ -1,7 +1,7 @@
 package src.poo.herencia.transporte;
 
 public class Transporte {
-    protected Integer seats;
+    private Integer seats;
 
     public Transporte(){}
 
