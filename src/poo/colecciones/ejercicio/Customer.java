@@ -3,22 +3,22 @@ package src.poo.colecciones.ejercicio;
 import java.util.Objects;
 
 public class Customer {
-    private int codigoDeRegistro;
+    private String codigoDeRegistro;
     private String razonSocial;
     private String dirección;
 
-    public Customer(int codigoDeRegistro, String razonSocial, String dirección){
+    public Customer(String codigoDeRegistro, String razonSocial, String dirección){
         this.dirección = dirección;
         this.razonSocial = razonSocial;
         this.codigoDeRegistro = codigoDeRegistro;
 
     }
 
-    public int getCodigoDeRegistro() {
+    public String getCodigoDeRegistro() {
         return codigoDeRegistro;
     }
 
-    public void setCodigoDeRegistro(int codigoDeRegistro) {
+    public void setCodigoDeRegistro(String codigoDeRegistro) {
         this.codigoDeRegistro = codigoDeRegistro;
     }
 
